@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "muhoumononozubon",
+    "part": "bottoms",
+    "name": "無法者のズボン",
+    "level": "50",
+    "set": "無法者のベストセット",
+    "parametor": [
+      {
+        "id": "1",
+        "damage": "-110"
+      },
+      {
+        "id": "2",
+        "damage": "-110"
+      },
+      {
+        "id": "4",
+        "damage": "-80"
+      },
+      {
+        "id": "5",
+        "damage": "-80"
+      },
+      {
+        "id": "7",
+        "damage": "-60"
+      },
+      {
+        "id": "8",
+        "damage": "-60"
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "muhoumononoudewa",
+    "part": "arm",
+    "name": "無法者のうでわ",
+    "level": "50",
+    "set": "無法者のベストセット",
+    "parametor": [
+      {
+        "id": "1",
+        "damage": "-60"
+      },
+      {
+        "id": "2",
+        "damage": "-120"
+      },
+      {
+        "id": "3",
+        "damage": "-70"
+      },
+      {
+        "id": "4",
+        "damage": "-60"
+      },
+      {
+        "id": "5",
+        "damage": "-120"
+      },
+      {
+        "id": "6",
+        "damage": "-70"
+      }
+    ]
+  },
+  {
+    "slug": "kenseinoudewa",
+    "part": "arm",
+    "name": "拳聖のうでわ",
+    "level": "60",
+    "set": "拳聖の道着セット",
+    "parametor": [
+      {
+        "id": "1",
+        "damage": "-85"
+      },
+      {
+        "id": "2",
+        "damage": "-130"
+      },
+      {
+        "id": "3",
+        "damage": "-85"
+      },
+      {
+        "id": "4",
+        "damage": "-85"
+      },
+      {
+        "id": "5",
+        "damage": "-130"
+      },
+      {
+        "id": "6",
+        "damage": "-85"
+      }
+    ]
+  }
+]

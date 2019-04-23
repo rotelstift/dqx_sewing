@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "muhoumononobandana",
+    "part": "hat",
+    "name": "無法者のバンダナ",
+    "level": "50",
+    "set": "無法者のベストセット",
+    "parametor": [
+      {
+        "id": "2",
+        "damage": "-100"
+      },
+      {
+        "id": "4",
+        "damage": "-125"
+      },
+      {
+        "id": "5",
+        "damage": "-150"
+      },
+      {
+        "id": "6",
+        "damage": "-125"
+      }
+    ]
+  }
+]
