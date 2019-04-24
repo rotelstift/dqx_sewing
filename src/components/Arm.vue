@@ -5,16 +5,8 @@
     <div v-for="d in armData" v-if="d.slug === $route.params.slug">
       <p>{{d}}</p>
 
-      <div v-for="p in d.parametor" class="blockArea">
-        <div class="inner">
-          <!-- <p>{{calDamage(remainingDamage + p.id, p.damage)}}</p> -->
-          <p :id='"remainingDamage" + p.id'>{{p.damage}}</p>
-          <form>
-            <input
-              v-bind:value='0'
-              @blur="mylib_calDamage(p.id, p.damage, $event.target.value)" >
-          </form>
-        </div>
+      <div v-for="p in d.parametor" class="blockAreaWrapper">
+        <blockArea :item='p' />
 
       </div>
 
@@ -24,10 +16,14 @@
 
 <script>
 
+  import BlockArea from '@/components/parts/BlockArea'
   import armData from '../../static/arm.json'
   import mylib from '@/components/util/mylib'
 
   export default {
+    components: {
+      blockArea: BlockArea
+    },
     data: function() {
       return {
         armData: armData
@@ -46,9 +42,9 @@
   div#container{
     width: 606px;
     padding: 0px;
-
+    min-width: 606px;
   }
-  div.blockArea{
+  div.blockAreaWrapper{
     width: 200px;
     float: left;
     height: 200px;

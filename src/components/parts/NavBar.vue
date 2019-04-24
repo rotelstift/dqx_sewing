@@ -5,7 +5,7 @@
     <div v-for='key in sets.keys()'>
         <h2>{{key}}</h2>
         <ul>
-          <li v-for='item in sets.get(key)'>
+          <li v-for='item in sets.get(key)' class="item">
             <router-link :to='"/" + item[2]+ "/" + item[1]'>{{item[0]}}</router-link>
           </li>
         </ul>
@@ -50,3 +50,14 @@
     }
   }
 </script>
+
+<style media="screen">
+  ul {
+    padding: 0px;
+  }
+  li.item {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+</style>

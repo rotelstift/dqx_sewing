@@ -1,9 +1,11 @@
 <template>
   <div id="app">
-    <header>
-      <h1 class="site-title"><router-link to="/">DQXさいほう支援ツール</router-link></h1>
-    </header>
-    <navbar/>
+    <div id="header_wrapper">
+      <header>
+        <h1 class="site-title"><router-link to="/">DQXさいほう支援ツール</router-link></h1>
+      </header>
+      <navbar/>
+    </div>
     <router-view/>
   </div>
 </template>
@@ -26,5 +28,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  display: flex;
+}
+#header_wrapper {
+  width: 300px;
 }
 </style>
